@@ -2,7 +2,7 @@ database = ["Croaks", "Eat Flies", "Shrimps", "Sings"]
 knowbase = ["Frog", "Canary"]
 color = ["Green", "Yellow"]
 def display():
-    print("\nX is:")
+    print("\nX is")
     print("1. Frog")
     print("2. Canary")
     print("\nSelect one option:")
