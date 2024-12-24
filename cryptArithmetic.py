@@ -16,7 +16,7 @@ def solve(word1, word2, result):
                 print(f"Solution: {num1} + {num2} = {num_result} | Assignments: {assigned}")
                 return
     print("No solutions found.")
-print("CRYPTARITHMETIC PUZZLE SOLVER")
+print("CRYPTARITHMETIC PUZZLE")
 word1 = input("Enter WORD1: ").upper()
 word2 = input("Enter WORD2: ").upper()
 result = input("Enter RESULT: ").upper()
