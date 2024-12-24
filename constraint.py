@@ -10,7 +10,7 @@ def scheduleSubjects(assignment):
     for day in days:
         if is_valid_assignment(subject, day, assignment):
             assignment[subject] = day
-            result = schedule_subjects(assignment)
+            result = scheduleSubjects(assignment)
             if result:
                 return result
             assignment.pop(subject)  
