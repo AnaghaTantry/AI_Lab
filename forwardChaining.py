@@ -25,9 +25,9 @@ def main():
         print("2. Yellow")
         print("\nSelect color option:")
         k = int(input())
-        if k == 1 and (x == 1 or x == 2):  # Frog and green
+        if k == 1 and (x == 1 or x == 2):  
             print("Yes, it is", knowbase[0], "and the color is", knowbase[2])
-        elif k == 2 and (x == 3 or x == 4):  # Canary and yellow
+        elif k == 2 and (x == 3 or x == 4):  
             print("Yes, it is", knowbase[1], "and the color is", knowbase[3])
         else:
             print("Invalid Knowledge Database")
