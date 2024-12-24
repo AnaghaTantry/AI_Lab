@@ -14,6 +14,7 @@ def solve(start, goal):
                 visited.add(next_state)
                 pq.put((get_distance(next_state, goal) + len(path), next_state, path + [next_state]))
     return []
+
 if __name__ == "__main__":
     path = solve("secure", "rescue")
     print("\n".join(f"{i}. {step}" for i, step in enumerate(path)))
