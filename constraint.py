@@ -1,11 +1,11 @@
 subjects = ["maths", "phy", "che", "bio"]
 days = ["Monday", "Tuesday"]
 conflicts = [("maths", "phy"), ("che", "bio")]
-def schedule_subjects(assignment):
+def scheduleSubjects(assignment):
     if len(assignment) == len(subjects):
         return assignment
     for subject in subjects:
-        if subject not in assignment:
+        if subject not in assignment: 
             break   
     for day in days:
         if is_valid_assignment(subject, day, assignment):
@@ -22,6 +22,6 @@ def is_valid_assignment(subject, day, assignment):
             if assignment.get(other_subject) == day:
                 return False
     return True
-solution = schedule_subjects({})
+solution = scheduleSubjects({})
 print(solution)
  
