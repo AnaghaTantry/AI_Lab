@@ -1,4 +1,4 @@
-print("Enter the number of queens")
+print("Enter the number of Queens")
 N = int(input())
 board = [[0] * N for _ in range(N)]
 def attack(i, j):
