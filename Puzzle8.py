@@ -27,4 +27,4 @@ ob = Solution()
 matrix = [[3, 1, 2],
     [4, 7, 5],
     [6, 8, 0]]
-print("NO OF MOVES==", ob.solve(matrix))
+print("NO OF MOVES=", ob.solve(matrix))
